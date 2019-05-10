@@ -1,0 +1,17 @@
+.username {
+    transform: translateX(50%);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.modh {
+    background-color: whitesmoke;
+}
+
+.modb {
+    background-color: whitesmoke;
+}
+
+.modf {
+    background-color: whitesmoke;
+}

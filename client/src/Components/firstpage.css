@@ -1,0 +1,36 @@
+.holly{
+    position: relative;
+    left: 0px;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.bolly{
+    position: relative;
+    right: 0px;
+    width: 50%;
+    float: right;
+}
+
+.holly img, .bolly img {
+    width: 100%;
+    height: auto;
+    border-style: groove;
+    border-color: darkslategray;
+    border-width: 15px;
+}
+
+.holly .btn, .bolly .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    width: 210px;
+    height: 85px;
+    font-weight: bold;
+    border-style: outset;
+    border-width: 5px;
+  }
